@@ -16,7 +16,7 @@ const Nav = () => {
       <div onClick={Mymodal} className={` ${modal ? "block" : "hidden"} w-full h-full fixed bg-[#000000a3]  z-40 `}>
           </div>
       <div className="flex justify-center">
-        <div className={` ${modal ? "top-0 m-10" : "top-[-100%] m-0" } fixed top-0 w-[250px] h-[200px] rounded-[20px] duration-300 bg-[#FDDA60] z-[60] mx-auto flex-col flex justify-center items-center`}
+        <div className={` ${modal ? "top-0 m-10 animate-fade" : "top-[-100%] m-0" } fixed top-0 w-[250px] h-[200px] rounded-[20px] duration-300 bg-[#FDDA60] z-[60] mx-auto flex-col flex justify-center items-center`}
         >
           <p className="text-base text-black hover:text-white font-AzoSans font-normal duration-300">
             It is a Modal
