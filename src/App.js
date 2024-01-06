@@ -37,7 +37,7 @@ function App() {
   return (
     <div>
       {PreLoader ? (<div> <Preload /> </div>) :
-        (<div className="bg-[#0A0A0A]">
+        (<div className="bg-[#0A0A0A] overflow-x-hidden">
           <div className='bg-[url(./assets/image/heroSecbg.webp)] 2xl:h-screen h-[810px] bg-bg-center sm:bg-100% bg-no-repeat relative'>
             <Nav />
             <Header />

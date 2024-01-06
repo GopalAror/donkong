@@ -139,7 +139,7 @@ const Kong = () => {
                     className="sticky  md:absolute  md:top-[30%] md:left-0 lg:top-[10%] lg:left-0 xl:left-[-2%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px]   cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong1}
                         alt="hugh"
                         data-aos="zoom-out-right"
@@ -150,7 +150,7 @@ const Kong = () => {
                     className="sticky  md:absolute  md:top-[25%] md:left-[20%] lg:top-[26%]  lg:left-0 xl:left-[5%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong2}
                         alt="Rambo"
                         data-aos="zoom-out-right"
@@ -161,7 +161,7 @@ const Kong = () => {
                     className="sticky  md:absolute  md:top-[15%] md:left-[44%] lg:top-[43%] lg:left-0 xl:left-[10%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong3}
                         alt="Rambo"
                         data-aos="zoom-out-right"
@@ -171,7 +171,7 @@ const Kong = () => {
                     className="sticky  md:absolute  md:right-0 md:top-[30%] lg:top-[60%]  lg:left-0 xl:left-[5%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong4}
                         alt="Rambo"
                         data-aos="zoom-out-right"
@@ -182,7 +182,7 @@ const Kong = () => {
                     className="sticky  md:absolute md:right-[22%] md:top-[25%] lg:top-[78%] lg:left-0 xl:left-[-2%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong5}
                         alt="Rambo"
                         data-aos="zoom-out-right"
@@ -193,7 +193,7 @@ const Kong = () => {
                     className="sticky  md:absolute md:top-[86%] md:right-[62%] lg:top-[10%] lg:right-0 xl:right-[-2%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong6}
                         alt="hugh"
                         data-aos="zoom-out-left"
@@ -204,7 +204,7 @@ const Kong = () => {
                     className="sticky  md:absolute md:top-[81%] md:right-[80%] lg:top-[26%]  lg:right-0  xl:right-[5%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong7}
                         alt="Rambo"
                         data-aos="zoom-out-left"
@@ -215,7 +215,7 @@ const Kong = () => {
                     className="sticky  md:absolute md:bottom-0 md:right-[43%] lg:top-[43%] lg:right-0  xl:right-[10%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong8}
                         alt="Rambo"
                         data-aos="zoom-out-left"
@@ -226,7 +226,7 @@ const Kong = () => {
                     className="sticky  md:absolute md:bottom-[5%] md:right-[22%] lg:bottom-[26%]  lg:right-0  xl:right-[5%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong9}
                         alt="Rambo"
                         data-aos="zoom-out-left"
@@ -237,7 +237,7 @@ const Kong = () => {
                     className="sticky  md:absolute md:bottom-[10%] md:right-0 lg:bottom-[8%] lg:right-0  xl:right-[-2%] md:max-w-[120px] lg:max-w-[180px]"
                 >
                     <img
-                        className="w-[180px] max-w-[115px] sm:max-w-[300px] md:w-full"
+                        className="w-[180px] cursor-pointer max-w-[115px] sm:max-w-[300px] md:w-full"
                         src={kong10}
                         alt="Rambo"
                         data-aos="zoom-out-left"
