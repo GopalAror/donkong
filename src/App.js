@@ -26,7 +26,7 @@ function App() {
     }, 3000)
   }, [])
   function reportWindowSize() {
-    document.title = (`donkong(${window.innerWidth},${window.innerHeight})`)
+    document.title = (`Donkong(${window.innerWidth},${window.innerHeight})`)
   }
   window.onresize = reportWindowSize;
   useEffect(() => {
