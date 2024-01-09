@@ -17,7 +17,6 @@ import Preload from './components/Preload';
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Travelars from './components/Travelars';
 function App() {
   const [PreLoader, setPreLoader] = useState(false)
   useEffect(() => {
@@ -58,7 +57,6 @@ function App() {
           <Team />
           <Faq />
           <BackToTop />
-          <Travelars />
         </div>)}
     </div>
   );
