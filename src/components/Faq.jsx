@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import plus from "../assets/image/plus.png";
-import subTrack from "../assets/image/subTrack.png";
-import FooterLogo from "../assets/image/footer-logo.png";
+import plus from "../assets/image/plus.webp";
+import subTrack from "../assets/image/subTrack.webp";
+import FooterLogo from "../assets/image/footer-logo.webp";
 import FooterTwiter from "../assets/image/twitr.svg";
 import FooterShip from "../assets/image/opensea-logo.svg";
 import FooterDiamand from "../assets/image/Frame.svg";
@@ -47,24 +47,23 @@ const Faq = () => {
         "Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh.",
     },
   ];
-  const y = new Date ();
-  const year =y.getFullYear();
+  const y = new Date();
+  const year = y.getFullYear();
   return (
-    <div className="bg-[url(./assets/image/bg-accordian.png)] bg-no-repeat h-full bg-100%">
+    <div className="bg-[url(./assets/image/bg-accordian.webp)] bg-no-repeat h-full bg-100%">
       <div className="container max-w-[900px] px-3 mx-auto 2xl:max-w-[1320px] pt-[100px]">
         <h1 className="text-white text-[35px] sm:text-[45px] md:text-[64px] font-azo font-normal leading-[108%] text-center lg:pb-[50px]">
           FAQs
         </h1>
-        <div className="w-full transition-all ease-linear duration-300 "  data-aos="fade-right">
+        <div className="w-full transition-all ease-linear duration-300 " data-aos="fade-right">
           {accordionData.map((item, index) => (
             <div
               className="border-b-[3px] border-[#FFDA60] mb-[5px] transition-all ease-linear duration-300 "
               key={index}
             >
               <div
-                className={`${
-                  openAccordion === index ? "px-3" : "pb-[17px]"
-                } pt-[25px]   text-white font-montserrat text-[16px] md:text-[22px] font-bold leading-[108%] transition-all ease-linear duration-300`}
+                className={`${openAccordion === index ? "px-3" : "pb-[17px]"
+                  } pt-[25px]   text-white font-montserrat text-[16px] md:text-[22px] font-bold leading-[108%] transition-all ease-linear duration-300`}
                 onClick={() => toggleAccordion(index)}
               >
                 <div className="flex justify-between items-center">
@@ -79,9 +78,8 @@ const Faq = () => {
                 </div>
               </div>
               <div
-                className={`accordion-content text-white text-[14px] md:text-base font-montserrat font-normal leading-[160%] transition-all ease-linear duration-300 ${
-                  openAccordion === index ? "open px-3 pb-5 pt-[9px]" : ""
-                }`}
+                className={`accordion-content text-white text-[14px] md:text-base font-montserrat font-normal leading-[160%] transition-all ease-linear duration-300 ${openAccordion === index ? "open px-3 pb-5 pt-[9px]" : ""
+                  }`}
               >
                 {item.content}
               </div>

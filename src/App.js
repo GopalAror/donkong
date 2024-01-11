@@ -1,9 +1,9 @@
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import black from "./assets/image/black-monkey.png";
-import white from "./assets/image/white-monkey.png";
-import big from "./assets/image/big-monkey.png";
+import black from "./assets/image/black-monkey.webp";
+import white from "./assets/image/white-monkey.webp";
+import big from "./assets/image/big-monkey.webp";
 import About from './components/About';
 import Utilities from './components/Utilities';
 import Kong from './components/Kong';

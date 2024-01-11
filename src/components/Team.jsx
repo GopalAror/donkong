@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "../assets/image/team-img11.png";
-import img2 from "../assets/image/team-img2.png";
-import img3 from "../assets/image/team-img3.png";
+import img1 from "../assets/image/team-img11.webp";
+import img2 from "../assets/image/team-img2.webp";
+import img3 from "../assets/image/team-img3.webp";
 import Teamcard from './Teamcard';
 
 const Team = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import bottal from "../assets/image/bottal.png";
+import bottal from "../assets/image/bottal.webp";
 import Button from './Button';
 const Mint = () => {
     const [first, setfirst] = useState(3)
@@ -17,7 +17,7 @@ const Mint = () => {
     }
     const maincount = first < 10 ? `0${first}` : first;
     return (
-        <div className='bg-[url(./assets/image/bg-mint.png)] bg-100% bg-no-repeat w-full'>
+        <div className='bg-[url(./assets/image/bg-mint.webp)] bg-100% bg-no-repeat w-full'>
             <div className="px-3 mx-auto max-w-[1140px]">
                 <div className="flex flex-row flex-wrap -mx-3 justify-center items-center">
                     <div className=" sm:pt-0 pt-[30px] w-[80%] md:w-6/12 px-3 flex items-center justify-center" data-aos="fade-down">
@@ -52,7 +52,7 @@ const Mint = () => {
                             <p className=' w-full border-2 border-white rounded-[4px] text-[36px] font-montserrat font-black text-center pt-3 text-white leading-[108%]'>{maincount}</p>
                             <button className='text-black rounded-[4px] font-montserrat font-black text-[36px] w-[75px] h-[65px] bg-white' onClick={add}>+</button>
                         </div>
-                        <Button className='w-full mt-[29px]' text='MINT NOW'/>
+                        <Button className='w-full mt-[29px]' text='MINT NOW' />
                     </div>
                 </div>
             </div>

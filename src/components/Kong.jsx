@@ -1,23 +1,23 @@
 import React, { useState } from 'react'
-import main4 from "../assets/image/main.png";
-import main5 from "../assets/image/white-monkey.png";
-import main8 from "../assets/image/black-monkey.png";
-import main1 from "../assets/image/img1-main.png";
-import main2 from "../assets/image/img2-main.png";
-import main3 from "../assets/image/img3-main.png";
-import main6 from "../assets/image/img6-main.png";
-import main7 from "../assets/image/img7-main.png";
-import main9 from "../assets/image/img9-main.png";
-import kong1 from "../assets/image/img1-kong.png";
-import kong2 from "../assets/image/img2-kong.png";
-import kong3 from "../assets/image/img3-kong.png";
-import kong4 from "../assets/image/img4-kong.png";
-import kong5 from "../assets/image/img5-kong.png";
-import kong6 from "../assets/image/img6-kong.png";
-import kong7 from "../assets/image/img7-kong.png";
-import kong8 from "../assets/image/img8-kong.png";
-import kong9 from "../assets/image/img9-kong.png";
-import kong10 from "../assets/image/img10-kong.png";
+import main4 from "../assets/image/main.webp";
+import main5 from "../assets/image/white-monkey.webp";
+import main8 from "../assets/image/black-monkey.webp";
+import main1 from "../assets/image/img1-main.webp";
+import main2 from "../assets/image/img2-main.webp";
+import main3 from "../assets/image/img3-main.webp";
+import main6 from "../assets/image/img6-main.webp";
+import main7 from "../assets/image/img7-main.webp";
+import main9 from "../assets/image/img9-main.webp";
+import kong1 from "../assets/image/img1-kong.webp";
+import kong2 from "../assets/image/img2-kong.webp";
+import kong3 from "../assets/image/img3-kong.webp";
+import kong4 from "../assets/image/img4-kong.webp";
+import kong5 from "../assets/image/img5-kong.webp";
+import kong6 from "../assets/image/img6-kong.webp";
+import kong7 from "../assets/image/img7-kong.webp";
+import kong8 from "../assets/image/img8-kong.webp";
+import kong9 from "../assets/image/img9-kong.webp";
+import kong10 from "../assets/image/img10-kong.webp";
 
 const Kong = () => {
     const [first, setfirst] = useState("Tab4");
@@ -96,8 +96,8 @@ const Kong = () => {
                             <img
                                 className="w-full pb-[100px] mb-[100px]"
                                 src={main7}
-                                alt="main"    
-                                data-aos="zoom-out"                            
+                                alt="main"
+                                data-aos="zoom-out"
                             />
                         </div>
                     )}

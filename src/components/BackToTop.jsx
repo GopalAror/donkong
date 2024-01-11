@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backtopicon from "../assets/image/backtopicon.png";
+import backtopicon from "../assets/image/backtopicon.webp";
 const BackToTop = () => {
     const [visible, setVisible] = useState(false);
 

@@ -1,6 +1,6 @@
 import React from "react";
-import roadmonk from "../assets/image/roadmap-img.png";
-import ring from "../assets/image/timeline.png";
+import roadmonk from "../assets/image/roadmap-img.webp";
+import ring from "../assets/image/timeline.webp";
 import Button from "./Button";
 const Roadmap = () => {
   return (
@@ -23,7 +23,7 @@ const Roadmap = () => {
             data-aos="fade-right"
           />
         </div>
-        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pt-6 pb-6 md:absolute md:left-[34%] lg:left-[28%] top-[18%] 2xl:left-[25%]"  data-aos="fade-left">
+        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pt-6 pb-6 md:absolute md:left-[34%] lg:left-[28%] top-[18%] 2xl:left-[25%]" data-aos="fade-left">
           <span className="lg:block hidden">
             <svg
               width="179"
@@ -52,7 +52,7 @@ const Roadmap = () => {
             </p>
           </div>
         </div>
-        <div className=" flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[42%] lg:left-[36%] top-[34%] 2xl:left-[35%] "  data-aos="fade-left">
+        <div className=" flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[42%] lg:left-[36%] top-[34%] 2xl:left-[35%] " data-aos="fade-left">
           <span className="lg:block hidden">
             <svg
               width="109"
@@ -81,7 +81,7 @@ const Roadmap = () => {
             </p>
           </div>
         </div>
-        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[44%] lg:left-[38%] top-[46.5%] 2xl:left-[38%]"  data-aos="fade-left">
+        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[44%] lg:left-[38%] top-[46.5%] 2xl:left-[38%]" data-aos="fade-left">
           <span className="lg:block hidden">
             <svg
               width="123"
@@ -110,7 +110,7 @@ const Roadmap = () => {
             </p>
           </div>
         </div>
-        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[44%] lg:left-[36%] top-[60%] 2xl:left-[36%] "  data-aos="fade-left">
+        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[44%] lg:left-[36%] top-[60%] 2xl:left-[36%] " data-aos="fade-left">
           <span className="lg:block hidden">
             <svg
               width="97"
@@ -139,7 +139,7 @@ const Roadmap = () => {
             </p>
           </div>
         </div>
-        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[38%] lg:left-[31%] top-[74%] 2xl:left-[28%] "  data-aos="fade-left">
+        <div className="flex text-center sm:text-start flex-col sm:flex-row items-center gap-5 sm:gap-[45px] group pb-6 md:absolute md:left-[38%] lg:left-[31%] top-[74%] 2xl:left-[28%] " data-aos="fade-left">
           <span className="lg:block hidden">
             <svg
               width="133"
